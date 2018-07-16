@@ -2,7 +2,7 @@
 
 Live Demo:
 
-https://rawgit.com/justKD/powerup-scenario-builder/dev/index.html
+https://rawgit.com/systers/powerup-scenario-builder/master/index.html
 
 
 ![alt text](https://raw.githubusercontent.com/justKD/powerup-scenario-planner/dev/example.png)
