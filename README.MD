@@ -1,9 +1,8 @@
-### Only tested in desktop Chrome and Safari
+## Only tested in desktop Chrome and Safari
 
-Live Demo:
+[Live App](https://rawgit.com/justKD/powerup-scenario-builder/dev/index.html)
 
-https://rawgit.com/systers/powerup-scenario-builder/master/index.html
-
+***
 
 ![alt text](https://raw.githubusercontent.com/justKD/powerup-scenario-planner/dev/example.png)
 
@@ -39,8 +38,7 @@ and purple panels represent Answers.
         - Delete any existing links before attempting to re-link
     - Questions can have multiple entry points and multiple answers
     - Links can not be made if it would create a potential infinite loop
-- Creating a link will automatically update the appropriate QuestionID and NextQID 
-properties of adjacent records.
+- Creating a link will automatically update the appropriate QuestionID and NextQID properties of adjacent records.
     - Manually edit those values at your own risk.
 
 ## Save, Load, Export

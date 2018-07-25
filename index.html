@@ -13,27 +13,23 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body onload="init()">
+<body>
 
   <div id="sample">
     <div id="title">Scenario Builder</div>
     <div id="diagramDiv"></div>
     <div id="toolbar">
       <div style="float:left">
-        <input type='button' class="button no-border" id="saveButton" value="☰" onclick="toggleMenu()">
-        <input type='button' class="button" id="saveButton" value="Save JSON" onclick="save()">
-        <input type='button' class="button" id='layOutButton' value="Do Layout" onclick="layout()">
-        <input type='button' class="button" id='exportAnButton' value="Export Answers" onclick="exportCSV(0)">
-        <input type='button' class="button" id='exportQuButton' value="Export Questions" onclick="exportCSV(1)">
-        <input type='button' class="button" id="exportSVG" value="Export SVG" onclick="exportSVG()">
-        <input type='button' class="button" id="exportSVG" value="Export PDF" onclick="exportPDF()">
-        <input type='file' class="inputfile" id="fileInput" name="fileInput" onclick=resetFile() onchange="loadFile()">
+        <input type='button' class="button no-border" id="saveButton" value="☰" onclick="toolbar.toggleHelpMenu()">
+        <input type='button' class="button" id="saveButton" value="Save JSON" onclick="toolbar.save()">
+        <input type='button' class="button" id='layOutButton' value="Do Layout" onclick="toolbar.layout()">
+        <input type='button' class="button" id='exportAnButton' value="Export Answers" onclick="toolbar.exportCSV(0)">
+        <input type='button' class="button" id='exportQuButton' value="Export Questions" onclick="toolbar.exportCSV(1)">
+        <input type='button' class="button" id="exportSVG" value="Export SVG" onclick="toolbar.exportSVG()">
+        <input type='button' class="button" id="exportSVG" value="Export PDF" onclick="toolbar.exportPDF()">
+        <input type='file' class="inputfile" id="fileInput" name="fileInput" onclick=toolbar.resetFile() onchange="toolbar.loadFile()">
         <label class="inputlabel" for="fileInput">Open JSON</label>
       </div>
-      <!-- <div class="input-file">
-        <label for="file">Open</label>
-        <input type="file" name="file" id="file" />
-      </div> -->
       <br />
     </div>
 
@@ -89,6 +85,8 @@
     <script src="library/go.js"></script>
     <script src="library/jspdf.min.js"></script>
     <script src="library/svg2pdf.min.js"></script>
+
+    <script src="js/templates.js"></script>
     <script src="js/toolbar.js"></script>
     <script src="js/diagram.js"></script>
 </body>
