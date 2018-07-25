@@ -16,7 +16,6 @@ const toolbar = {
     },
 
     exportCSV: target => {
-        console.log(target)
         self.model = diagram.model.toJson()
 
         const j = JSON.parse(self.model).nodeDataArray
