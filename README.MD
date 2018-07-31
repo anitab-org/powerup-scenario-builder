@@ -1,10 +1,31 @@
-## Only tested in desktop Chrome and Safari
 
-[Live App](https://rawgit.com/justKD/powerup-scenario-builder/dev/index.html)
+# PowerUp Scenario Builder
+
+Created by: [@justKD](https://github.com/justKD)
+
+Contributors: (your name goes here)
+***
+[Live Version (master branch)](https://rawgit.com/systers/powerup-scenario-builder/master/index.html)
+***
+
+This is a tool for creating and exporting question and answer datasets for PowerUp.
+
+It's features include:
+- Q&A cards in a relational tree
+- Automatic layout
+- Export work session file in JSON format.
+- Export CSV tables for Questions and Answers, matching the PowerUp database.
+- Export SVG and PDF for sharing.
+
+![PowerUp Scenario Builder](https://github.com/systers/powerup-scenario-builder/blob/master/example.png?raw=true "PowerUp Scenario Builder Example Image")
 
 ***
 
-![alt text](https://raw.githubusercontent.com/justKD/powerup-scenario-planner/dev/example.png)
+## Current State (July 25, 2018)
+
+Best in Chrome. Works in Safari and Firefox. May work in Opera.
+
+***
 
 ## Intro
 
@@ -56,12 +77,8 @@ The toolbar buttons:
 - **Export SVG** - downloads an editable vector file in SVG format
 - **Export PDF** - downloads an easily shareable PDF
 
-## Notable Changes
+## Other Notes
 
 - Instead of listing question and answer IDs sequentially, this tool assigns an ID range beginning with 1000 * the scenario ID assigned in the starting question. This will help make the database more human-readable, and also allows us to expand the scenarios without having to re-number everything or introduce unnecessary confusion.
     - Simply assign the Scenario ID in the starting question and click to add the first node. As long as you do not change the scenario ID again, this tool will handle the rest.
 - This tool will not allow links that could create potential infinite loops.
-
-## Example Data
-
-- The example-data folder contains data exported from this tool, meant to be used for quick testing or demonstrations
