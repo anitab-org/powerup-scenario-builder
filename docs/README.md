@@ -21,7 +21,14 @@ PowerUp Scenario Builder is a web app for creating question and answer tables fo
     - [Re-linking Cards](#re-linking-cards)
 - [Ending the Scenario](#ending-the-scenario)
 - [Menu Options](#menu-options)
+    - Save/Load
+    - Export Tables
+    - Export PDF/SVG
+    - Auto Layout
 - [Navigating the Work Area](#navigating-the-work-area)
+    - Pan
+    - Zoom
+    - Undo/Redo
 
 
 Opening the web app will always present a fresh page, but we'll show you how to _save and load_ your work soon.
@@ -240,7 +247,7 @@ End a scenario by manually setting the appropriate value in the `NextQID` field 
 
 ## Navigating the Work Area
 
-- Panning the map
+- Pan
     - Click and drag in empty white space
     - Arrow keys
 >
@@ -255,5 +262,5 @@ End a scenario by manually setting the appropriate value in the `NextQID` field 
 - Redo
     - `ctrl y` or `cmd y` on macOS
 >
-- Zoom to fit
+- Zoom-To-Fit
     - `shift z`
