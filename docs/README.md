@@ -3,10 +3,7 @@ PowerUp Scenario Builder is a web app for creating question and answer tables fo
 
 ***
 
-<script>
-const e = document.getElementsByClassName("page-header")
-e.innerHTML += '<a href="https://rawgit.com/systers/powerup-scenario-builder/master/index.html" class="btn">PowerUp Scenario Builder Live</a>'
-</script>
+<button name="button" onclick="https://rawgit.com/systers/powerup-scenario-builder/master/index.html">PowerUp Scenario Builder Live</button>
 
 <!-- **************************** -->
 <!-- **************************** -->
