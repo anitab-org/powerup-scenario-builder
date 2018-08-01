@@ -24,7 +24,6 @@ const toolbar = {
         let fileName
 
         const handleQuestions = _ => {
-            console.log('questions')
             for (let i in j) {
                 const record = j[i];
                 if (record.category == "Start" || record.category == "Question") {
@@ -44,7 +43,6 @@ const toolbar = {
         }
 
         const handleAnswers = _ => {
-            console.log('answers')
             for (let i in j) {
                 const record = j[i]
                 if (record.category == "Answer") {

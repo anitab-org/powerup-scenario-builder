@@ -20,7 +20,7 @@
     <div id="diagramDiv"></div>
     <div id="toolbar">
       <div style="float:left">
-        <input type='button' class="button no-border" id="saveButton" value="☰" onclick="toolbar.toggleHelpMenu()">
+        <input type='button' class="button no-border" id="saveButton" value="?" onclick="toolbar.toggleHelpMenu()">
         <input type='button' class="button" id="saveButton" value="Save JSON" onclick="toolbar.save()">
         <input type='button' class="button" id='layOutButton' value="Do Layout" onclick="toolbar.layout()">
         <input type='button' class="button" id='exportAnButton' value="Export Answers" onclick="toolbar.exportCSV(0)">
@@ -46,6 +46,8 @@
         <div class="menu-item">
           More Instructions
           <ul>
+            <li>Click and drag in white space to pan the map.</li>
+            <li>Middle mouse wheel or touch pad zoom gestures to zoom.</li>
             <li>Double click on any non-italic text to edit it.</li>
             <li>Make sure to set the ScenarioID. All other question nodes will inherit it, and it will give a numbered namespace
               for Q&A IDs.</li>
