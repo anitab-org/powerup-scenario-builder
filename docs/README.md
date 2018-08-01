@@ -15,6 +15,11 @@ PowerUp Scenario Builder is a web app for creating question and answer tables fo
   transition: background .5s;
   cursor: pointer;
 }
+
+.button a {
+    text-decoration: none;
+}
+
 .button span {
   width: 100%;
   height: 100%;
@@ -23,17 +28,21 @@ PowerUp Scenario Builder is a web app for creating question and answer tables fo
   box-shadow: 0 0 0 3px #2D3142 inset;
   background: transparent;
 }
+
 .button .away {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
+
 .button .over {
   display: none;
 }
+
 .button:hover span.away {
   display: none;
 }
+
 .button:hover span.over {
   display: table-cell;
   vertical-align: middle;
@@ -41,6 +50,7 @@ PowerUp Scenario Builder is a web app for creating question and answer tables fo
   color: white;
   box-shadow: none;
 }
+
 .button:hover {
   background: #2D3142;
 }
