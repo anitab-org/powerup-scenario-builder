@@ -3,7 +3,53 @@ PowerUp Scenario Builder is a web app for creating question and answer tables fo
 
 ***
 
-<button name="button" onclick="https://rawgit.com/systers/powerup-scenario-builder/master/index.html">PowerUp Scenario Builder Live</button>
+<style>
+.button {
+  box-sizing: border-box;
+  height: 50px;
+  width: 400px;
+  display: table;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.55);
+  transition: background .5s;
+  cursor: pointer;
+}
+.button span {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: #2D3142;
+  box-shadow: 0 0 0 3px #2D3142 inset;
+  background: transparent;
+}
+.button .away {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.button .over {
+  display: none;
+}
+.button:hover span.away {
+  display: none;
+}
+.button:hover span.over {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  box-shadow: none;
+}
+.button:hover {
+  background: #2D3142;
+}
+</style>
+
+<a class="button" href="https://rawgit.com/systers/powerup-scenario-builder/master/index.html">
+  <span class="away">Powerup Scenario Builder</span>
+  <span class="over">Live App</span>
+</a>
 
 <!-- **************************** -->
 <!-- **************************** -->
