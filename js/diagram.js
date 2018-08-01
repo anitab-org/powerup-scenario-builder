@@ -388,12 +388,7 @@ const run = {
         // detect when dropped onto an occupied cell
         diagram.addDiagramListener("SelectionMoved", methods.shiftNodesToEmptySpaces)
 
-        // set the mouse wheel to always zoom, and disable the toggle function of middle clicking
         diagram.toolManager.mouseWheelBehavior = go.ToolManager.WheelZoom
-        diagram.toolManager.doActivate = _ => {
-            this.mouseWheelBehavior = go.ToolManager.WheelZoom
-            go.ToolManager.prototype.doActivate.call(this)
-        }
     },
 
     createCustomDragTool: _ => {
