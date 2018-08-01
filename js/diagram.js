@@ -197,11 +197,11 @@ const methods = {
 
     handleLinking: e => {
 
-        const fromNode = e.subject.fromNode;
-        const toNode = e.subject.toNode;
-        const fromData = fromNode.data;
-        const toData = toNode.data;
-        const updatemodel = diagram.model;
+        const fromNode = e.subject.fromNode
+        const toNode = e.subject.toNode
+        const fromData = fromNode.data
+        const toData = toNode.data
+        const updatemodel = diagram.model
 
         // automatically set the qid properties for an answer when re-linked to a question 
         const doUpdateModel = (data, fields) => {
@@ -299,7 +299,7 @@ const run = {
         methods.commonLinkingToolInit(self.ltool)
         methods.commonLinkingToolInit(self.rtool)
         // do not allow links to be drawn starting at the "to" port
-        self.ltool.direction = go.LinkingTool.ForwardsOnly;
+        self.ltool.direction = go.LinkingTool.ForwardsOnly
         // change the standard relink handle to be a shape that takes the shape of the link
         self.rtool.toHandleArchetype = $(
             go.Shape, {
@@ -387,6 +387,13 @@ const run = {
 
         // detect when dropped onto an occupied cell
         diagram.addDiagramListener("SelectionMoved", methods.shiftNodesToEmptySpaces)
+
+        // set the mouse wheel to always zoom, and disable the toggle function of middle clicking
+        diagram.toolManager.mouseWheelBehavior = go.ToolManager.WheelZoom
+        diagram.toolManager.doActivate = _ => {
+            this.mouseWheelBehavior = go.ToolManager.WheelZoom
+            go.ToolManager.prototype.doActivate.call(this)
+        }
     },
 
     createCustomDragTool: _ => {
@@ -425,7 +432,7 @@ const run = {
         }
 
         // use DraggingTool to cause the dragging of a Link to start relinking it
-        diagram.toolManager.draggingTool = new DragLinkingTool();
+        diagram.toolManager.draggingTool = new DragLinkingTool()
     },
 
 }
