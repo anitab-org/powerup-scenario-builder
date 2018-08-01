@@ -1,17 +1,12 @@
 
 PowerUp Scenario Builder is a web app for creating question and answer tables for PowerUp ([iOS](https://github.com/systers/powerup-iOS), [Android](https://github.com/systers/powerup-android)), a text-adventure style mobile game by [Systers Open Source](https://github.com/systers).
 
-**Best experienced in Chrome.**
-_Also works in Safari and Firefox. Possibly with quirks._
-
 ***
 
 <a class="button" href="https://rawgit.com/systers/powerup-scenario-builder/master/index.html">
   <span class="away">Powerup Scenario Builder</span>
   <span class="over">Live App</span>
 </a>
-
-***
 
 <!-- **************************** -->
 <!-- **************************** -->
@@ -40,6 +35,13 @@ _Also works in Safari and Firefox. Possibly with quirks._
     - Zoom
     - Undo/Redo
 
+
+Opening the web app will always present a fresh page, but we'll show you how to _save and load_ your work soon.
+
+***
+
+![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/images/1-just-opened.png?raw=true)
+
 <!-- **************************** -->
 <!-- **************************** -->
 <!-- **************************** -->
@@ -47,9 +49,6 @@ _Also works in Safari and Firefox. Possibly with quirks._
 ***
 
 ## Setup
-
-![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/images/1-just-opened.png?raw=true)
-
 
 <!-- **************************** -->
 <!-- **************************** -->
