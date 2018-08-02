@@ -23,6 +23,8 @@ _Also works in Safari and Firefox. Possibly with quirks._
     - [Set the Text for the First Question](#set-the-text-for-the-first-question)
 - [Cards](#cards)
     - [Adding and Editing Cards](#adding-and-editing-cards)
+        - Adding a New Card
+        - Editing Fields
     - [Moving Cards](#moving-cards)
     - [Deleting Cards](#deleting-cards)
     - [Card Types](#card-types)
@@ -66,7 +68,7 @@ When starting a new graph, the first thing you'll want to do is **set your scena
 
 Double-click on the value next to `ScenarioID` and change it to match the `ScenarioID` of the scenario you're working on.
 
-> _You can edit the values of non-italicized text by double-clicking on it._
+> You can edit the values of non-italicized text by double-clicking on it.
 
 - This is an important first step when you start a new work session.
     - This value is inherited by subsequent question cards.
@@ -79,13 +81,13 @@ Double-click on the value next to `ScenarioID` and change it to match the `Scena
 
 #### Set the Text for the First Question
 
-Double-click on the text at the top of each card to change it. 
-
-This will be the text for the first question of the scenario.
+Double-click on the text at the top of the first card to edit it.
 
 ![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/images/3-set-starting-question.png?raw=true)
 
-You don't need to set the `QuestionID` at this time. Add your first answer card, and it will automatically set the starting `QuestionID`.
+_You don't need to set the `QuestionID` at this time._
+
+Add your first answer card, and it will automatically set the starting `QuestionID`.
 
 ***
 
@@ -97,9 +99,9 @@ You don't need to set the `QuestionID` at this time. Add your first answer card,
 
 #### Adding and Editing Cards
 
-On each card, click the plus icon to add a new child card.
+##### Add a New Card
 
-> On each card, the text in the top field will appear as the actual question or answer in the game.
+Click the plus icon to add a new child card.
 
 - Cards will automatically alternate type (question or answer).
 >
@@ -117,6 +119,16 @@ On each card, click the plus icon to add a new child card.
 > You can manually edit the values in these fields, but doing so may result in undesired behavior from the automatic numbering system. Always check your work if you make manual edits.
 
 ![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/images/4-adding-more-cards.png?raw=true)
+
+<!-- **************************** -->
+<!-- **************************** -->
+<!-- **************************** -->
+
+##### Editing Fields
+
+Double-click on non-italicized text to change it.
+
+> Like the starting card, the text at the top of each card is the actual Question or Answer text. Change the default `"new"` to be the appropriate text that should appear in PowerUp.
 
 <!-- **************************** -->
 <!-- **************************** -->
