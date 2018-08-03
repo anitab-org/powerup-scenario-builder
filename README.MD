@@ -5,7 +5,9 @@ Created by: [@justKD](https://github.com/justKD)
 
 Contributors: (your name goes here)
 ***
-[Live Version (master branch)](https://rawgit.com/systers/powerup-scenario-builder/master/index.html)
+[Public Docs](http://systers.io/powerup-scenario-builder/)
+>
+[Live App (master branch)](https://rawgit.com/systers/powerup-scenario-builder/master/index.html)
 ***
 
 This is a tool for creating and exporting question and answer datasets for PowerUp.
