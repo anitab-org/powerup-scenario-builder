@@ -43,17 +43,20 @@
     }
 
     #toolbar {
-      padding-top: 10px;
+      padding-top: 15px;
       padding-left: 20px;
+      border-top: 1px solid grey;
     }
 
-    .button {
+    .button, .inputlabel {
       font-family: 'Lato', Arial, Helvetica, sans-serif;
       font-size: .9em;
-      border-radius: 0;
+      border-radius: 4px;
       background-color: transparent;
-      border: 1px solid black;
-      transition: all .2s ease-in-out;
+      border: 0px;
+      transition: all .15s ease-in-out;
+      padding: 4px 7px;
+      color: rgb(50, 50, 50);
     }
 
     .no-border {
@@ -66,17 +69,13 @@
       font-size: .9em;
       position: relative;
       left: -241px;
-      border: 1px solid black;
-      padding-top: 1px;
-      padding-bottom: 2px;
-      padding-left: 5px;
-      padding-right: 5px;
       z-index: 1;
       transition: all .2s ease-out;
     }
 
-    .button:hover {
+    .button:hover, .inputlabel:hover {
       background-color: #48dbfb;
+      cursor: pointer;
     }
 
     .onclick-menu:hover {
