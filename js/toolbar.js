@@ -221,4 +221,12 @@ const toolbar = {
         document.getElementById("leftSideMenu").style.left = value
     },
 
+    toggleMenuButtons: _ => {
+        const value = (self.menuOpen ? ['0', 'none'] : ['1', 'flex'])
+        self.menuOpen = !self.menuOpen
+        document.getElementById("menuButtons").style.opacity = value[0]
+        setTimeout(() => {
+            document.getElementById("menuButtons").style.display = value[1]
+        }, 150)        
+    }
 }

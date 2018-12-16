@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -19,7 +20,7 @@
     <div id="title">Scenario Builder</div>
     <div id="diagramDiv"></div>
     <div id="toolbar">
-      <div style="float:left">
+      <div id='menuButtons' style="float:left">
         <input type='button' class="button no-border" id="saveButton" value="?" onclick="toolbar.toggleHelpMenu()">
         <input type='button' class="button" id="saveButton" value="Save JSON" onclick="toolbar.save()">
         <input type='button' class="button" id='layOutButton' value="Do Layout" onclick="toolbar.layout()">
@@ -30,10 +31,13 @@
         <input type='file' class="inputfile" id="fileInput" name="fileInput" onclick=toolbar.resetFile() onchange="toolbar.loadFile()">
         <label class="inputlabel" for="fileInput">Open JSON</label>
       </div>
+      <div id='toggleMenuButton'>
+        <button onclick="toolbar.toggleMenuButtons()"><i class="fa fa-bars"></i></button>
+      </div>
       <br />
     </div>
 
-    <div id="leftSideMenu">
+    <div id="leftSideMenu">      
       <div id="menu-container">
         <div class="menu-item">
           Quick Guide
