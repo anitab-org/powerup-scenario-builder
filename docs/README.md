@@ -6,7 +6,7 @@ _Also works in Safari and Firefox. Possibly with quirks._
 
 ***
 
-<a class="button" href="https://rawgit.com/systers/powerup-scenario-builder/master/index.html">
+<a class="button" href="https://powerup-scenario.surge.sh/">
   <span class="away">Powerup Scenario Builder</span>
   <span class="over">Live App</span>
 </a>
