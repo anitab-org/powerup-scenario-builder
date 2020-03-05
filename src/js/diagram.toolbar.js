@@ -231,8 +231,8 @@ export const diagramToolbar = {
     const margin = 200;
     const width = svg.width.baseVal.value + margin;
     const height = svg.height.baseVal.value + margin;
-    const pdf = new jsPDF.default("l", "pt", [width, height]);
-    svg2pdf.default(svg, pdf, {
+    const pdf = new jsPDF("l", "pt", [width, height]);
+    svg2pdf(svg, pdf, {
       xOffset: margin / 2,
       yOffset: margin / 2,
       scale: 1,
