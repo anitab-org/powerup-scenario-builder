@@ -10,7 +10,7 @@ Created by: [@justKD](https://github.com/justKD)
 
 PowerUp Scenario Builder is a web app for creating question and answer tables for PowerUp ([iOS](https://github.com/anitab-org/powerup-iOS), [Android](https://github.com/anitab-org/powerup-android)), a text-adventure style mobile game by [AnitaB.org Open Source](https://github.com/anitab-org).
 
-![PowerUp Scenario Builder](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/readme-images/example.png?raw=true "PowerUp Scenario Builder Example Image")
+![PowerUp Scenario Builder](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/readme-images/example.png?raw=true "PowerUp Scenario Builder Example Image")
 
 **Best experienced in Chrome.**
 _Also works in Safari and Firefox. Possibly with quirks._
@@ -61,7 +61,7 @@ v1.0.0
 
 ## Setup
 
-![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/readme-images/1-just-opened.png?raw=true)
+![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/readme-images/1-just-opened.png?raw=true)
 
 #### Set the Scenario ID
 
@@ -71,7 +71,7 @@ When starting a new graph, the first thing you'll want to do is **set your scena
 
 > The first card in every graph is unique. It serves as the first question presented to the player, but it also sets the `ScenarioID` for all subsequent cards.
 
-![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/readme-images/2-set-scenario-id.png?raw=true)
+![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/readme-images/2-set-scenario-id.png?raw=true)
 
 Double-click on the value next to `ScenarioID` and change it to match the `ScenarioID` of the scenario you're working on.
 
@@ -86,7 +86,7 @@ Double-click on the value next to `ScenarioID` and change it to match the `Scena
 
 Double-click on the text at the top of the first card to edit it.
 
-![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/readme-images/3-set-starting-question.png?raw=true)
+![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/readme-images/3-set-starting-question.png?raw=true)
 
 _You don't need to set the `QuestionID` at this time._
 
@@ -117,7 +117,7 @@ Click the plus icon to add a new child card.
 
 > You can manually edit the values in these fields, but doing so may result in undesired behavior from the automatic numbering system. Always check your work if you make manual edits.
 
-![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/readme-images/4-adding-more-cards.png?raw=true)
+![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/readme-images/4-adding-more-cards.png?raw=true)
 
 ##### Editing Fields
 
@@ -166,7 +166,7 @@ To delete a card, click inside any empty space in the card to select it, and pre
 
 You can delete a link by clicking to select it and pressing your `Delete` key.
 
-![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/readme-images/5-relink-cards.png?raw=true)
+![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/readme-images/5-relink-cards.png?raw=true)
 
 Click and drag on the plus icon (right-side port of a card) to start re-linking a card.
 
@@ -174,11 +174,11 @@ Drag the new link to the left-side port of the target card, and release to creat
 
 Re-linking follows the same rules as [adding cards](#adding-and-editing-cards). Attempts to create illegal links are ignored.
 
-![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/readme-images/6-relink-drag.png?raw=true)
+![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/readme-images/6-relink-drag.png?raw=true)
 
 > Manually create links in order to assign multiple answers to the left-side port of a question.
 
-![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/readme-images/7-multiple-answers-to-question.png?raw=true)
+![](https://github.com/justKD/Powerup-Scenario-Builder/blob/master/docs/readme-images/7-multiple-answers-to-question.png?raw=true)
 
 ---
 
